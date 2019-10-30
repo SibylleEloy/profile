@@ -1,14 +1,15 @@
 h1 {
-  color: white;
+  color: #31333B;
   font-family: 'Poppins', sans-serif;
 }
 
 body {
   background-color: #31333B;
+  background-image: url('https://source.unsplash.com/random');
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: normal;
-  color: black;
+  color: #31333B;
   font-weight: lighter;
 }
 
@@ -18,7 +19,7 @@ body {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 4%;
 }
 
 #introduction {
@@ -37,14 +38,14 @@ body {
   text-align: center;
   background-color: white;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px rgba(255,255,255,0.1);
   border-radius: 4px;
   margin: 20px 0px;
 }
 
 
 a:hover {
-  background-color: yellow;
+  background-color: rgba(11,11,11,0.1);;
 }
 
 .list-inline > li {
@@ -61,7 +62,7 @@ a
 {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: #31333B;
   font-weight: 600;
   font-size: 32px;
 }
